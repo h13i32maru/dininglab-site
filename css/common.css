@@ -1,0 +1,165 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  color: #4A4A4A;
+  font-weight: 400;
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  background: #ffffff;
+}
+
+/* navigation */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.navigation img {
+  width: 50px;
+}
+
+.navigation a {
+  color: #8DBB2E;
+  font-weight: bold;
+}
+
+.navigation > * {
+  margin-right: 12px;
+}
+
+/* header */
+.header {
+  background-image: url(/image/header_original.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 160px;
+  background-position: center;
+}
+
+.header .tagline {
+  width: 100%;
+  height: 100%;
+  font-size: 28px;
+  /*color: #8DBB2E;*/
+  color: white;
+  font-weight: bold;
+  background: #5252528a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*text-shadow: 0 1px 9px rgba(0,0,0,0.50);*/
+  /*text-shadow: 0 1px 9px rgba(255,255,255,255.50);*/
+}
+
+/* message */
+.message {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* downloads */
+.downloads {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.downloads .download {
+  padding: 0 12px;
+}
+.downloads .download img {
+  height: 46px;
+}
+
+/* features */
+.features {
+  padding: 0 18px;
+}
+
+.features .feature {
+  padding-top: 40px;
+}
+
+.features .feature-title  {
+  font-size: 18px;
+  color: #8DBB2E;
+  font-weight: bold;
+}
+
+.features .mdi {
+  font-size: 24px;
+  color: #6F6F6F;
+  padding-right: 10px;
+}
+
+.features .feature-desc {
+  padding-top: 8px;
+  line-height: 26px;
+  color: #808080;
+}
+
+.feature .ss {
+  display: flex;
+  width: 100%;
+  padding-top: 12px;
+}
+
+.feature .ss > div {
+  flex: 1;
+  padding: 0 8px;
+  text-align: center;
+  font-size: 12px;
+  color: #888888;
+}
+
+.feature .ss img {
+  max-width: 100%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 14px;
+
+  margin-top: 26px;
+  background: rgba(141,187,46,0.46);
+  border-top: solid 1px #E5E5E5;
+  border-bottom: solid 1px #E5E5E5;
+}
+
+footer .terms {
+  padding-top: 46px;
+}
+
+footer .terms a {
+  padding: 0 4px;
+}
+
+footer .copyright {
+  padding-top: 24px;
+}
+
+footer .contact {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+footer .mdi {
+  font-size: 22px;
+  color: #6F6F6F;
+  padding: 0 4px;
+}

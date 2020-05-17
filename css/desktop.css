@@ -12,6 +12,10 @@
     height: 300px;
   }
 
+  .message {
+    max-width: 600px;
+  }
+
   .feature .ss img {
     max-width: 200px;
   }

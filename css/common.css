@@ -90,6 +90,24 @@ a {
   height: 46px;
 }
 
+/* app main*/
+.app-main {
+  display: flex;
+  flex-direction: row;
+  color: #808080;
+  padding: 24px 6px 6px;
+}
+
+.app-main > div {
+  text-align: center;
+  flex: 1;
+  padding: 6px;
+}
+
+.app-main img {
+  max-width: 100%;
+}
+
 /* features */
 .features {
   padding: 0 18px;
@@ -133,6 +151,17 @@ a {
 
 .feature .ss img {
   max-width: 100%;
+}
+
+/* blog detail */
+.blog-detail {
+  padding: 32px 18px 24px;
+  text-align: center;
+}
+
+.blog-detail a {
+  color: #1D6CCF;
+  text-decoration: underline;
 }
 
 /* footer */
